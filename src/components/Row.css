@@ -1,0 +1,45 @@
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    height: 150px;
+    margin-right: 10px;
+    transition: transform 0.4s;
+    
+}
+
+.row__container {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y:hidden;
+    padding: 20px
+    
+}
+
+.row {
+    padding-left:15px;
+    padding-top: 10px
+}
+
+.row__container::-webkit-scrollbar {
+    display: none;
+}
+
+.row::-webkit-scrollbar {
+    display:none
+}
+
+.row__poster:hover {
+    transform: scale(1.03);
+}
+
+.row__posterLarge {
+    height: 200px;
+    
+}
+.row__posterLarge:hover{
+    transform: scale(1.08);
+}
+
+.row__title {
+    color: whitesmoke;
+}
